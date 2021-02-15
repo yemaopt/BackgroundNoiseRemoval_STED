@@ -40,6 +40,7 @@ QuantumYeild=0.65;
 Tdwelling=400e-6; %s
 yita=(2*pi*(1-cos(asin(1.4/1.515))))/(4*pi)*0.9; %APD effciency 90%
 
+Fluorescence=SumPs1.*QuantumYeild.*yita.*Tdwelling./T./parameters.tauf;
 
 end
 
